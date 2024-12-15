@@ -2,7 +2,7 @@
   "string": [
     {
       "name": "module_desc",
-      "value": "程序主界面"
+      "value": "module description"
     },
     {
       "name": "EntryAbility_desc",
@@ -10,7 +10,7 @@
     },
     {
       "name": "EntryAbility_label",
-      "value": "Anime Tour"
+      "value": "label"
     }
   ]
 }
