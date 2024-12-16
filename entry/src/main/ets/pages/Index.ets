@@ -7,7 +7,7 @@ struct Index {
     {
       Column()
       {
-        Text('动漫巡礼地图')
+        Text('动漫巡礼')
           .height(50)
           .fontSize(30)
           .fontColor(Color.Black)
