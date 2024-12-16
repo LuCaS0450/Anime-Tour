@@ -42,7 +42,6 @@ struct Index {
             .onClick(()=>{ this.swiperController.showPrevious();})
         }
       }
-
       .height('100%')
       .width('100%')
       .backgroundColor("rgb(228,247,255)")
