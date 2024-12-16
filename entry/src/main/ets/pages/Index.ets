@@ -1,39 +1,51 @@
-import  JSON  from '@kit.ArkTS';
-import  router  from '@ohos.router'
 @Entry
-struct Index {
-  private searchController: SearchController =new SearchController();
-  @State changeValue: string='';
+@Component
 
+
+
+
+
+
+struct Index {
+  private swiperController:SwiperController =new SwiperController();
   build() {
-    Column()//主界面
+    Swiper(this.swiperController)
     {
-      Row().height(20)
-      Image($r('app.media.app_logo'))
-        .width(240).height(50).margin(5)
+    Column()
+      {
+      Text('动漫巡礼地图')
+        .height(50)
+        .fontSize(30)
+        .fontColor(Color.Black)
+        .backgroundColor("rgb(157,219,241)")
+        .width('100%')
       Row() {
-        Search({value : this.changeValue,placeholder:"作品名称",controller:this.searchController})
-          .width('80%')
-          .backgroundColor("rgb(228,247,255)")
-          .onChange((value: string) => { // 监听输入变化
-            this.changeValue = value; // 实时更新 searchText
-            console.log('当前输入:', this.changeValue); // 调试信息
-          })
-        Button('搜索')
-          .onClick(() => {
-            console.log('点击搜索按钮，开始跳转')
-            router.pushUrl({
-              url: 'pages/page2'
-            })
-            console.log('跳转成功')
-          })
+        Text('作品名称')
+          .fontSize(20)
+          .fontColor(Color.Black)
+        Search()
+          .width('61%')
+        Button("搜索")
+          .onClick(()=>{ this.swiperController.showNext();})
       }
       .width('100%')
-      .height('10%')
+      .height('20%')
       .backgroundColor("rgb(228,247,255)")
     }
     .height("100%")
     .width('100%')
     .backgroundColor("rgb(228,247,255)")
+      Column()
+      {
+        Row() {
+          Button("返回搜索")
+            .onClick(()=>{ this.swiperController.showPrevious();})
+        }
+      }
+      .height("100%")
+      .width('100%')
+      .backgroundColor("rgb(228,247,255)")
   }
+  }
+
 }
