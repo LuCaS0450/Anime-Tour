@@ -32,7 +32,7 @@ struct Index {
       .height('20%')
       .backgroundColor("rgb(228,247,255)")
     }
-    .height("100%")
+    .height('100%')
     .width('100%')
     .backgroundColor("rgb(228,247,255)")
       Column()
@@ -42,7 +42,7 @@ struct Index {
             .onClick(()=>{ this.swiperController.showPrevious();})
         }
       }
-      .height("100%")
+      .height('100%')
       .width('100%')
       .backgroundColor("rgb(228,247,255)")
   }
