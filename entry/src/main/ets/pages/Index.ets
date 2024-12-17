@@ -25,9 +25,18 @@ struct Index {
             .width('100%')
         Row() {
           Search({value : this.changeValue,placeholder:"作品名称",controller:this.searchController})
-            .width('100%')
-            .searchButton('搜索').onClick(()=>{ this.swiperController.showNext();})
-            .backgroundColor("rgb(228,247,255)");
+            .width('80%')
+            .backgroundColor("rgb(228,247,255)")
+            .onChange((value: string) => { // 监听输入变化
+            this.changeValue = value; // 实时更新 searchText
+            console.log('当前输入:', this.changeValue); // 调试信息
+          })
+          Button('搜索')
+            .width('20%')
+            .onClick(() => {
+              console.log('点击搜索按钮，执行跳转');
+              this.swiperController.showNext(); // 跳转到下一页
+            })
         }
         .width('100%')
         .height('10%')
