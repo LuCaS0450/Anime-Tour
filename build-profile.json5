@@ -1,6 +1,20 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\kaede\\.ohos\\config\\default_Anime-Tour_t8pgC51oDE9JQk6rsSK8V92XJ97fgTTonklnB_dXHxI=.cer",
+          "storePassword": "0000001B3CD0F2B46D97814AFC28F0E67273B67D6A189E4B5A8616D83EE2AC120B7D21F6DD91747C6DEA99",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BD2A57D2796206A5FBE7C172B0F180057011BFD9F52B40EC1EA76D306B4B4DCC92E7C6AE7B210A6",
+          "profile": "C:\\Users\\kaede\\.ohos\\config\\default_Anime-Tour_t8pgC51oDE9JQk6rsSK8V92XJ97fgTTonklnB_dXHxI=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\kaede\\.ohos\\config\\default_Anime-Tour_t8pgC51oDE9JQk6rsSK8V92XJ97fgTTonklnB_dXHxI=.p12"
+        }
+      }
+    ],
     "products": [
       {
         "name": "default",
