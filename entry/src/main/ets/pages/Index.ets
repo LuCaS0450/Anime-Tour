@@ -44,5 +44,4 @@ struct Index {
       .backgroundColor("rgb(228,247,255)")
     }
   }
-
 }
