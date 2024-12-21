@@ -1,16 +1,7 @@
 import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { window } from '@kit.ArkUI';
-import { bundleManager } from '@kit.AbilityKit';
 
-let flag = bundleManager.BundleFlag.GET_BUNDLE_INFO_WITH_SIGNATURE_INFO;
-let bundleInfo = bundleManager.getBundleInfoForSelfSync(flag)
-let appId = bundleInfo.signatureInfo.appId;
-console.log(appId)
-console.log(appId)
-console.log(appId)
-
-public static setApiKey(apiKey: string):  void
 
 export default class EntryAbility extends UIAbility {
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {
