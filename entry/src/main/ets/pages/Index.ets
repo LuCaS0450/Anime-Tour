@@ -16,11 +16,6 @@ struct Index {
         .width('100%')
         .textAlign(TextAlign.Center) // 水平居中
       Row().height(5)
-      Text('作品名称')
-        .fontSize(20)
-        .fontColor(Color.Grey).textAlign(TextAlign.Center) // 水平居中
-        .height('5%')
-        .width('100%')
       Row() {
         Search({value : this.changeValue,placeholder:"作品名称",controller:this.searchController})
           .width('80%')
