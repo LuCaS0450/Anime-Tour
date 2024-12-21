@@ -2,7 +2,7 @@
   "string": [
     {
       "name": "module_desc",
-      "value": "程序主界面"
+      "value": "module description"
     },
     {
       "name": "EntryAbility_desc",
@@ -15,6 +15,7 @@
     {
       "name": "Amap_apikey",
       "value": "7061e2530386ebeef4256a25af2c582c"
+      "value": "label"
     }
   ]
 }
