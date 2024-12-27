@@ -5,7 +5,6 @@
 
 
 
-
 struct Index {
   private swiperController:SwiperController =new SwiperController();
   build() {
