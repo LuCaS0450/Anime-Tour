@@ -10,6 +10,11 @@
     },
     {
       "name": "EntryAbility_label",
+      "value": "Anime Tour"
+    },
+    {
+      "name": "Amap_apikey",
+      "value": "7061e2530386ebeef4256a25af2c582c"
       "value": "label"
     }
   ]
