@@ -1,4 +1,3 @@
-
 import  router  from '@ohos.router'
 @Entry
 struct Index {
@@ -11,7 +10,9 @@ struct Index {
       Row().height(20)
       Image($r('app.media.app_logo')).width(200).height(52)
       Row().height(5)
-      Text('作品名称').fontSize(20).fontWeight(FontWeight.Bold).fontColor(Color.Grey).textAlign(TextAlign.Center) // 水平居中
+      Text('作品名称')
+        .fontSize(20).fontWeight(FontWeight.Bold).fontColor(Color.Grey).textAlign(TextAlign.Center) // 水平居中
+
       Row() {
         Search({value : this.changeValue,placeholder:"作品名称",controller:this.searchController})
           .width('80%')
