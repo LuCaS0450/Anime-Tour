@@ -9,18 +9,11 @@ struct Index {
     Column()//主界面
     {
       Row().height(20)
-      Text('动漫巡礼地图')
-        .height(50)
-        .fontSize(30)
-        .fontColor(Color.Black)
-        .width('100%')
-        .textAlign(TextAlign.Center) // 水平居中
+      Image($r('app.media.app_logo')).width(200).height(52)
       Row().height(5)
       Text('作品名称')
-        .fontSize(20)
-        .fontColor(Color.Grey).textAlign(TextAlign.Center) // 水平居中
-        .height('5%')
-        .width('100%')
+        .fontSize(20).fontWeight(FontWeight.Bold).fontColor(Color.Grey).textAlign(TextAlign.Center) // 水平居中
+
       Row() {
         Search({value : this.changeValue,placeholder:"作品名称",controller:this.searchController})
           .width('80%')
