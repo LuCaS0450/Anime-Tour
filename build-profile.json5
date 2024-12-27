@@ -6,9 +6,9 @@
         "type": "HarmonyOS",
         "material": {
           "certpath": "C:\\Users\\kaede\\.ohos\\config\\default_Anime-Tour_t8pgC51oDE9JQk6rsSK8V92XJ97fgTTonklnB_dXHxI=.cer",
-          "storePassword": "0000001B3CD0F2B46D97814AFC28F0E67273B67D6A189E4B5A8616D83EE2AC120B7D21F6DD91747C6DEA99",
+          "storePassword": "0000001B46ABF78F134AB755F812E449E30185661ED813FF49D6E3D9053CA338A1C45D13372AB8C3209B73",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001BD2A57D2796206A5FBE7C172B0F180057011BFD9F52B40EC1EA76D306B4B4DCC92E7C6AE7B210A6",
+          "keyPassword": "0000001B0AE699FC27802977579E16DD4179DC9E2C6F19410053CA5114D9BCC0DC0726DB376CAFF823F019",
           "profile": "C:\\Users\\kaede\\.ohos\\config\\default_Anime-Tour_t8pgC51oDE9JQk6rsSK8V92XJ97fgTTonklnB_dXHxI=.p7b",
           "signAlg": "SHA256withECDSA",
           "storeFile": "C:\\Users\\kaede\\.ohos\\config\\default_Anime-Tour_t8pgC51oDE9JQk6rsSK8V92XJ97fgTTonklnB_dXHxI=.p12"

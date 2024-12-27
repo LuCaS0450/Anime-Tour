@@ -9,6 +9,12 @@
       "tablet",
       "2in1"
     ],
+    "metadata": [
+      {
+        "name": "client_id",
+        "value": "6917560498788050256"  // 配置为获取的Client ID
+      }
+    ],
     "deliveryWithInstall": true,
     "installationFree": false,
     "pages": "$profile:main_pages",
@@ -34,5 +40,10 @@
         ]
       }
     ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      }
+    ]
   }
 }

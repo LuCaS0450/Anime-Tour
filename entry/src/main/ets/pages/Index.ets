@@ -1,4 +1,4 @@
-
+import  JSON  from '@kit.ArkTS';
 import  router  from '@ohos.router'
 @Entry
 struct Index {
@@ -9,13 +9,8 @@ struct Index {
     Column()//主界面
     {
       Row().height(20)
-      Text('动漫巡礼地图')
-        .height(50)
-        .fontSize(30)
-        .fontColor(Color.Black)
-        .width('100%')
-        .textAlign(TextAlign.Center) // 水平居中
-      Row().height(5)
+      Image($r('app.media.app_logo'))
+        .width(240).height(50).margin(5)
       Row() {
         Search({value : this.changeValue,placeholder:"作品名称",controller:this.searchController})
           .width('80%')
