@@ -13,8 +13,6 @@ struct infopage {
           })
         Row().width('90%')
       }
-
-      Image($r('app.media.app_logo'))
     }
     .height('100%')
     .width('100%')
